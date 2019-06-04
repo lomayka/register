@@ -72,7 +72,7 @@ router.patch('/organization/:id', (req, res) => {
     })
 });
 
-router.delete('/organizations/:id', (req, res) => {
+router.delete('/organization/:id', (req, res) => {
     if(req.params.id == undefined) return res.json({
         message: 'no id'
     });
